@@ -1,0 +1,47 @@
+{
+  "name": "@b-fun/bfun-ai",
+  "version": "0.5.4",
+  "description": "CLI, OpenClaw plugin, and agent skill for creating and trading B.Fun meme tokens on BSC",
+  "bin": {
+    "bfun": "bin/bfun.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "plugin.ts",
+    "openclaw.plugin.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfun-ai/bfun-ai.git"
+  },
+  "homepage": "https://github.com/bfun-ai/bfun-ai#readme",
+  "openclaw": {
+    "extensions": [
+      "./plugin.ts"
+    ]
+  },
+  "type": "module",
+  "keywords": [
+    "bfun",
+    "bsc",
+    "binance",
+    "meme",
+    "memecoin",
+    "token",
+    "cli",
+    "agent",
+    "skill",
+    "openclaw"
+  ],
+  "author": "B.Fun",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.13.6",
+    "commander": "12.1.0",
+    "dotenv": "16.6.1",
+    "viem": "2.47.4"
+  }
+}

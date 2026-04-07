@@ -1,0 +1,13 @@
+{
+  "id": "bfun-ai",
+  "name": "B.Fun AI",
+  "description": "Create and trade meme tokens on B.Fun (BSC) via the bfun CLI and bundled agent skill.",
+  "skills": [
+    "skills/bfun-integration"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "description": "No plugin-level config. Configure PRIVATE_KEY and optional RPC/API env vars through skills.entries[\"bfun-ai\"].env."
+  }
+}
